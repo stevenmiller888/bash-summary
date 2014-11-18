@@ -6,12 +6,13 @@ Simple tool to see which platforms, frameworks, and package managers are install
 
 ## Installation
 
-$ make install
+`$ make install`
 
 ## Usage
 
-Output from `summary --help`:
+Output from `$ summary --help`:
 
+```
   Usage: summary [options]
 
   Commands:
@@ -22,6 +23,7 @@ Output from `summary --help`:
 
     -V, --version   Output current version of summary
     -h, --help      Display help information
+```
 
 ## License
 
