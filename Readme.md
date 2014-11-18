@@ -2,7 +2,7 @@
 
 Simple tool to see which platforms, frameworks, and package managers are installed on your system.
 
-![Demo](http://cl.ly/image/2C1s2M1C2z0G/Screen%20Shot%202014-11-18%20at%2012.43.47%20PM.png)
+![Demo](http://cl.ly/image/2V0f2913030r/Screen%20Shot%202014-11-18%20at%2012.50.18%20PM.png)
 
 ## Installation
 
