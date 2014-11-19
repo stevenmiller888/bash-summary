@@ -9,8 +9,6 @@ PLATFORMS=("node go")
 FRAMEWORKS=("meteor rails express sinatra")
 PKGMANAGERS=("npm brew mrt bower apm duo component gem")
 DATABASES=("postgres")
-PATH1="/usr/local/bin"
-PATH2="/usr/bin"
 
 #
 # Display usage information.
