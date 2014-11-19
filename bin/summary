@@ -48,7 +48,7 @@ display_summary_version() {
 display_platforms() {
   printf "\033[35mPlatforms\033[0m\n"
   for i in $PLATFORMS; do
-    if [ -e $PATH1/$i ] || [ -e $PATH2/$i ]; then
+    if [[ -e `which $i` ]]; then
       printf "$i\n"
     fi
   done
@@ -62,7 +62,7 @@ display_platforms() {
 display_frameworks() {
   printf "\033[36mFrameworks\033[0m\n"
   for i in $FRAMEWORKS; do
-    if [ -e $PATH1/$i ] || [ -e $PATH2/$i ]; then
+    if [[ -e `which $i` ]]; then
       printf "$i\n"
     fi
   done
@@ -76,7 +76,7 @@ display_frameworks() {
 display_pkgmanagers() {
   printf "\033[32mPackage Managers\033[0m\n"
   for i in $PKGMANAGERS; do
-    if [ -e $PATH1/$i ] || [ -e $PATH2/$i ]; then
+    if [[ -e `which $i` ]]; then
       printf "$i\n"
     fi
   done
@@ -90,7 +90,7 @@ display_pkgmanagers() {
 display_databases() {
   printf "\033[33mDatabases\033[0m\n"
   for i in $DATABASES; do
-    if [ -e $PATH1/$i ] || [ -e $PATH2/$i ]; then
+    if [[ -e `which $i` ]]; then
       printf "$i\n"
     fi
   done
