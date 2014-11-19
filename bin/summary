@@ -8,6 +8,7 @@ VERSION="0.0.1"
 PLATFORMS=("node go")
 FRAMEWORKS=("meteor rails express sinatra")
 PKGMANAGERS=("npm brew mrt bower apm duo component gem")
+DATABASES=("postgres")
 PATH1="/usr/local/bin"
 PATH2="/usr/bin"
 
@@ -83,6 +84,20 @@ display_pkgmanagers() {
 }
 
 #
+# Display databases.
+#
+
+display_databases() {
+  printf "\033[33mDatabases\033[0m\n"
+  for i in $DATABASES; do
+    if [ -e $PATH1/$i ] || [ -e $PATH2/$i ]; then
+      printf "$i\n"
+    fi
+  done
+  echo
+}
+
+#
 # Display summary.
 #
 
@@ -91,6 +106,7 @@ display_summary() {
   display_platforms
   display_frameworks
   display_pkgmanagers
+  display_databases
 }
 
 #
