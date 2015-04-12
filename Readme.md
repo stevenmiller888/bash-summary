@@ -1,16 +1,14 @@
 # Summary
 
-Simple tool to see which platforms, frameworks, and package managers are installed on your system.
+> Simple tool to monitor the platforms, frameworks, and package managers are installed on your system.
 
 ![](http://cl.ly/image/3l2v290s1g0O/Screen%20Shot%202015-02-15%20at%2010.44.09%20PM.png)
 
 ## Installation
 
-`$ make install`
+Run `git clone https://github.com/stevenmiller888/bash-summary.git && make install`
 
-## Usage
-
-Output from `$ summary --help`:
+## CLI
 
 ```
   Usage: summary [options]
@@ -27,12 +25,4 @@ Output from `$ summary --help`:
 
 ## License
 
-(The MIT License)
-
-Copyright (c) 2014 Steven Miller &lt;stevenmiller888@gmail.com&gt;
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+MIT
