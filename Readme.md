@@ -1,6 +1,6 @@
 # Summary
 
-> Simple tool to monitor the platforms, frameworks, and package managers are installed on your system.
+> Simple bash tool to monitor the platforms, frameworks, and package managers are installed on your system.
 
 ![](http://cl.ly/image/3l2v290s1g0O/Screen%20Shot%202015-02-15%20at%2010.44.09%20PM.png)
 
